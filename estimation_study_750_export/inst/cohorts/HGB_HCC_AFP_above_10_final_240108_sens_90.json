@@ -1,0 +1,769 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4001171,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "109841003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Liver cell carcinoma",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[PCH]HCC",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4304092,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "419394006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of abdomen and pelvis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4139745,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32962002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of abdomen with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PCH]abd_CT_CDM533",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2009622,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4926232",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "10 ML EOB-DTPA 133 MG/ML / gadolinium oxide 45.3 MG/ML Prefilled Syringe [Primovist] by Bayer",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42920771,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4647612",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "10 ML gadolinium oxide 181 MG/ML Prefilled Syringe [Primovist]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42900494,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1311118",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "gadolinium oxide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PCH]abd_MR",
+      "id": 10
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3009306,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1834-1",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42529190,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83073-7",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[PCH]AFP",
+      "id": 11
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4281232,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "66071002",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Type B viral hepatitis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HGB] B-viral hepatitis",
+      "id": 13
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3019284,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5195-3",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Hepatitis B virus surface Ag [Presence] in Serum",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3004563,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5197-9",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Hepatitis B virus surface Ag [Presence] in Serum by Radioimmunoassay (RIA)",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[HGB] Hepatitis B virus surface Ag [Presence] in Serum",
+      "id": 15
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 201519,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "95214007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Primary malignant neoplasm of liver",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HGB] Primary malignant neoplasm of liver",
+      "id": 16
+    }
+  ],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"ConditionOccurrence": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "ConditionTypeExclude": false,
+          "CodesetId": 13,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "VisitType": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "ConditionType": null,
+          "ConditionSourceConcept": null,
+          "ConditionStatus": null,
+          "StopReason": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"Measurement": {
+          "Operator": null,
+          "RangeHigh": null,
+          "MeasurementTypeExclude": false,
+          "ValueAsConcept": null,
+          "CorrelatedCriteria": null,
+          "RangeHighRatio": null,
+          "CodesetId": 15,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "Unit": [{
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 8779,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "{signal}/[{CO'ratio}]",
+            "VOCABULARY_ID": "UCUM",
+            "CONCEPT_NAME": "signal to cutoff ratio",
+            "DOMAIN_ID": "Unit",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          }],
+          "RangeLowRatio": null,
+          "MeasurementType": null,
+          "MeasurementSourceConcept": null,
+          "VisitType": null,
+          "ValueAsNumber": {
+            "Op": "gt",
+            "Extent": null,
+            "Value": 1
+          },
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RangeLow": null,
+          "Abnormal": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"Measurement": {
+          "Operator": null,
+          "RangeHigh": null,
+          "MeasurementTypeExclude": false,
+          "ValueAsConcept": null,
+          "CorrelatedCriteria": null,
+          "RangeHighRatio": null,
+          "CodesetId": 15,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "Unit": [{
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 8985,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "[iU]/mL",
+            "VOCABULARY_ID": "UCUM",
+            "CONCEPT_NAME": "international unit per milliliter",
+            "DOMAIN_ID": "Unit",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          }],
+          "RangeLowRatio": null,
+          "MeasurementType": null,
+          "MeasurementSourceConcept": null,
+          "VisitType": null,
+          "ValueAsNumber": {
+            "Op": "gt",
+            "Extent": null,
+            "Value": 0.1
+          },
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RangeLow": null,
+          "Abnormal": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"Measurement": {
+          "Operator": null,
+          "RangeHigh": null,
+          "MeasurementTypeExclude": false,
+          "ValueAsConcept": [
+            {
+              "INVALID_REASON_CAPTION": "Unknown",
+              "CONCEPT_ID": 9191,
+              "STANDARD_CONCEPT": null,
+              "CONCEPT_CODE": "10828004",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_NAME": "Positive",
+              "DOMAIN_ID": "Meas Value",
+              "STANDARD_CONCEPT_CAPTION": "Unknown",
+              "CONCEPT_CLASS_ID": null,
+              "INVALID_REASON": null
+            },
+            {
+              "INVALID_REASON_CAPTION": "Unknown",
+              "CONCEPT_ID": 4123508,
+              "STANDARD_CONCEPT": null,
+              "CONCEPT_CODE": "260347006",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_NAME": "+",
+              "DOMAIN_ID": "Meas Value",
+              "STANDARD_CONCEPT_CAPTION": "Unknown",
+              "CONCEPT_CLASS_ID": null,
+              "INVALID_REASON": null
+            }
+          ],
+          "CorrelatedCriteria": null,
+          "RangeHighRatio": null,
+          "CodesetId": 15,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "Unit": null,
+          "RangeLowRatio": null,
+          "MeasurementType": null,
+          "MeasurementSourceConcept": null,
+          "VisitType": null,
+          "ValueAsNumber": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RangeLow": null,
+          "Abnormal": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      }
+    ],
+    "Type": "ANY",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no HCC history",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 90,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"Measurement": {
+            "Operator": null,
+            "RangeHigh": null,
+            "MeasurementTypeExclude": false,
+            "ValueAsConcept": null,
+            "CorrelatedCriteria": null,
+            "RangeHighRatio": null,
+            "CodesetId": 11,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "Unit": null,
+            "RangeLowRatio": null,
+            "MeasurementType": null,
+            "MeasurementSourceConcept": null,
+            "VisitType": null,
+            "ValueAsNumber": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RangeLow": null,
+            "Abnormal": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "measurement of AFP within 90 days before index date",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "End": {
+              "Days": 90,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no HCC within 90 days after index date",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 90,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"Measurement": {
+            "Operator": null,
+            "RangeHigh": null,
+            "MeasurementTypeExclude": false,
+            "ValueAsConcept": null,
+            "CorrelatedCriteria": null,
+            "RangeHighRatio": null,
+            "CodesetId": 11,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "Unit": null,
+            "RangeLowRatio": null,
+            "MeasurementType": null,
+            "MeasurementSourceConcept": null,
+            "VisitType": null,
+            "ValueAsNumber": {
+              "Op": "gte",
+              "Extent": null,
+              "Value": 10
+            },
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RangeLow": null,
+            "Abnormal": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "above 10",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"ProcedureOccurrence": {
+        "ProcedureType": null,
+        "CorrelatedCriteria": null,
+        "CodesetId": 5,
+        "ProcedureSourceConcept": null,
+        "Quantity": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "ProcedureTypeExclude": false,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": "2010-01-01"
+        },
+        "Modifier": null,
+        "Age": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 18
+        }
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "DrugSourceConcept": null,
+        "CodesetId": 10,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": "2010-01-01"
+        },
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 18
+        }
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 90
+    }
+  }
+}
